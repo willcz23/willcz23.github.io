@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 吳健雄
+title: willcz23
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Shiung Wu
@@ -14,7 +14,7 @@ pronouns: she/her
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 😎
 
 # Is this the primary user of the site?
 superuser: true
