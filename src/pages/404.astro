@@ -1,8 +1,8 @@
 ---
 import { t } from "@config";
-import BaseLayout from "@layouts/BaseLayout.astro";
+import BaseLayout from "@components/layout/BaseLayout.astro";
 import { Icon } from "astro-icon/components";
-import MainCard from "@/components/MainCard.astro";
+import MainCard from "@/components/ui/MainCard.astro";
 
 Astro.response.status = 404;
 const pathname = Astro.url.pathname;

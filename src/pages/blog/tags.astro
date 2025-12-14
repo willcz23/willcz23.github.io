@@ -1,13 +1,13 @@
 ---
-import BaseCard from "@components/BaseCard.astro";
+import BaseCard from "@components/ui/BaseCard.astro";
 import { t } from "@config";
-import BaseLayout from "@layouts/BaseLayout.astro";
+import BaseLayout from "@components/layout/BaseLayout.astro";
 import {
   getAllPosts,
   getTagColorClass,
   getTagFontSize,
   getTagsWithCount,
-} from "@utils/blogUtils";
+} from "@lib/blogUtils";
 import { Icon } from "astro-icon/components";
 
 // 获取所有博客文章

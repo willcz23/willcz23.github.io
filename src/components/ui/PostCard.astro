@@ -2,12 +2,12 @@
 import { Image } from "astro:assets";
 import { DATE_FORMAT } from "@config";
 import type { PostData } from "@interfaces/data";
-import dayjs from "@utils/dayjs";
 import { Icon } from "astro-icon/components";
-import Card from "./temple/Card.astro";
-import Heading from "./widgets/Heading.astro";
-import PostFilter from "./widgets/PostFilter.astro";
-import PostInfo from "./widgets/PostInfo.astro";
+import Card from "@components/temple/Card.astro";
+import Heading from "@components/widgets/Heading.astro";
+import PostFilter from "@components/widgets/PostFilter.astro";
+import PostInfo from "@components/widgets/PostInfo.astro";
+import dayjs from "@lib/dayjs";
 
 const {
   title,
