@@ -1,13 +1,13 @@
 ---
-import BaseCard from "@components/BaseCard.astro";
-import PostCard from "@components/PostCard.astro";
+import BaseCard from "@components/ui/BaseCard.astro";
+import PostCard from "@components/ui/PostCard.astro";
 import CardGroup from "@components/temple/CardGroup.astro";
 import Pagination from "@components/widgets/Pagination.astro";
 import { t } from "@config";
 import type { Page, Post } from "@interfaces/data";
-import BaseLayout from "@layouts/BaseLayout.astro";
-import { generatePageLinks } from "@utils/blogUtils";
-import { getCategoryPaginationPaths } from "@utils/paginationUtils";
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import { generatePageLinks } from "@lib/blogUtils";
+import { getCategoryPaginationPaths } from "@lib/paginationUtils";
 import { Icon } from "astro-icon/components";
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {

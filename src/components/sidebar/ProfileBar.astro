@@ -1,12 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
-import {
-  SITE_MENU,
-  USER_AVATAR,
-  USER_SIDEBAR_SOCIAL_ICONS,
-} from "../../config";
-import Card from "../temple/Card.astro";
+import { SITE_MENU, USER_AVATAR, USER_SIDEBAR_SOCIAL_ICONS } from "@config";
+import Card from "@components/temple/Card.astro";
 
 // Get current path to determine active link
 const currentPath = Astro.url.pathname;

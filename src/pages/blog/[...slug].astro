@@ -4,9 +4,9 @@ import License from "@components/widgets/License.astro";
 import PostFilter from "@components/widgets/PostFilter.astro";
 import PostInfo from "@components/widgets/PostInfo.astro";
 import { DATE_FORMAT } from "@config";
-import BaseLayout from "@layouts/BaseLayout.astro";
-import dayjs from "@utils/dayjs";
-import MainCard from "@/components/MainCard.astro";
+import BaseLayout from "@components/layout/BaseLayout.astro";
+import dayjs from "@lib/dayjs";
+import MainCard from "@/components/ui/MainCard.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
