@@ -1,7 +1,7 @@
 ---
 import { Code } from "astro-expressive-code/components";
 import { Icon } from "astro-icon/components";
-import MainCard from "@/components/ui/MainCard.astro";
+import MainCard from "@components/ui/MainCard.astro";
 import FeatureCard from "@/components/mdx/FeatureCard.astro";
 import GitHubStats from "@/components/mdx/GitHubStats.astro";
 import BaseLayout from "@components/layout/BaseLayout.astro";
@@ -39,7 +39,7 @@ import BaseLayout from "@components/layout/BaseLayout.astro";
         </div>
       </section>
 
-      <!-- Features Section -->
+      <!-- Features Section 
       <section class="py-6">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <Icon name="lucide:sparkles" class="w-6 h-6 text-primary" />
@@ -90,8 +90,9 @@ import BaseLayout from "@components/layout/BaseLayout.astro";
           />
         </div>
       </section>
+      -->
 
-      <!-- Quick Start -->
+      <!-- Quick Start 
       <section class="py-6">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <Icon name="lucide:rocket" class="w-6 h-6 text-primary" />
@@ -156,8 +157,9 @@ import BaseLayout from "@components/layout/BaseLayout.astro";
           </div>
         </div>
       </section>
+      -->
 
-      <!-- GitHub Stats -->
+      <!-- GitHub Stats 
       <section class="py-6">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <Icon name="lucide:github" class="w-6 h-6 text-primary" />
@@ -166,6 +168,7 @@ import BaseLayout from "@components/layout/BaseLayout.astro";
 
         <GitHubStats username="EveSunMaple" repositoryName="Frosti" showLanguages={true} showContributors={true} />
       </section>
+      -->
     </div>
   </MainCard>
 </BaseLayout>
