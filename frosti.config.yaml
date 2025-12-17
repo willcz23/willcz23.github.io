@@ -1,6 +1,6 @@
 # 网站的基本信息
 site:
-  tab: Frosti # 浏览器标签栏上显示的文本
+  tab: Willcz23 # 浏览器标签栏上显示的文本
   title: 💠 Frosti # 网站的标题
   description: A clean, elegant, and fast static blog template! 🚀 Developed with Astro # 网站的描述，用于SEO等
   language: en # 网站的语言，例如 "en" 是英文
@@ -57,7 +57,7 @@ site:
       target: _self
 # 用户的个人信息
 user:
-  name: EveSunMaple # 用户名
+  name: Willcz23 # 用户名
   site: "https://frosti.saroprock.com" # 用户的网站链接
   avatar: /profile.png # 用户头像路径
   sidebar: # 侧边栏配置
